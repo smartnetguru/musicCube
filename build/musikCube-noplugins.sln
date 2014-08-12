@@ -1,0 +1,49 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "taglib-1.4", "..\formats\taglib-1.4\taglib-vc7\taglib-vc7.vcxproj", "{ECD80AD2-F98E-4579-B066-9582DC98AAA9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "musikCore", "..\musikCore\musikCore.vcxproj", "{A43DCC0A-9D52-45E3-83BD-67765130F62A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenThreads", "..\musikCore\3rdparty\OpenThreads\win32_src\OpenThreads.vcxproj", "{8F1ECB96-746F-40C1-86CB-6A4AB16369EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sqlite3", "..\musikCore\3rdparty\sqlite3\sqlite3.vcxproj", "{07688CCC-54B0-42BA-9562-3852CDA5094A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MMShellHook", "..\musikCube\MMShellHook\MMShellHook.vcxproj", "{C372ABA2-E90B-459B-B5B2-A9A181DFE807}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "musikCube", "..\musikCube\musikCube.vcxproj", "{99140D9E-2F39-406D-AD74-CA89B8C354CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECD80AD2-F98E-4579-B066-9582DC98AAA9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ECD80AD2-F98E-4579-B066-9582DC98AAA9}.Debug|Win32.Build.0 = Debug|Win32
+		{ECD80AD2-F98E-4579-B066-9582DC98AAA9}.Release|Win32.ActiveCfg = Release|Win32
+		{ECD80AD2-F98E-4579-B066-9582DC98AAA9}.Release|Win32.Build.0 = Release|Win32
+		{A43DCC0A-9D52-45E3-83BD-67765130F62A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A43DCC0A-9D52-45E3-83BD-67765130F62A}.Debug|Win32.Build.0 = Debug|Win32
+		{A43DCC0A-9D52-45E3-83BD-67765130F62A}.Release|Win32.ActiveCfg = Release|Win32
+		{A43DCC0A-9D52-45E3-83BD-67765130F62A}.Release|Win32.Build.0 = Release|Win32
+		{8F1ECB96-746F-40C1-86CB-6A4AB16369EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8F1ECB96-746F-40C1-86CB-6A4AB16369EF}.Debug|Win32.Build.0 = Debug|Win32
+		{8F1ECB96-746F-40C1-86CB-6A4AB16369EF}.Release|Win32.ActiveCfg = Release|Win32
+		{8F1ECB96-746F-40C1-86CB-6A4AB16369EF}.Release|Win32.Build.0 = Release|Win32
+		{07688CCC-54B0-42BA-9562-3852CDA5094A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{07688CCC-54B0-42BA-9562-3852CDA5094A}.Debug|Win32.Build.0 = Debug|Win32
+		{07688CCC-54B0-42BA-9562-3852CDA5094A}.Release|Win32.ActiveCfg = Release|Win32
+		{07688CCC-54B0-42BA-9562-3852CDA5094A}.Release|Win32.Build.0 = Release|Win32
+		{C372ABA2-E90B-459B-B5B2-A9A181DFE807}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C372ABA2-E90B-459B-B5B2-A9A181DFE807}.Debug|Win32.Build.0 = Debug|Win32
+		{C372ABA2-E90B-459B-B5B2-A9A181DFE807}.Release|Win32.ActiveCfg = Release|Win32
+		{C372ABA2-E90B-459B-B5B2-A9A181DFE807}.Release|Win32.Build.0 = Release|Win32
+		{99140D9E-2F39-406D-AD74-CA89B8C354CF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{99140D9E-2F39-406D-AD74-CA89B8C354CF}.Debug|Win32.Build.0 = Debug|Win32
+		{99140D9E-2F39-406D-AD74-CA89B8C354CF}.Release|Win32.ActiveCfg = Release|Win32
+		{99140D9E-2F39-406D-AD74-CA89B8C354CF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

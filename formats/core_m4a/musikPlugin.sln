@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "core_m4a", "core_m4a.vcproj", "{5F9287FE-7CD2-4547-B53F-D7EFE1E4EC7F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B94333C8-8019-4655-9CD2-D55A521118A9} = {B94333C8-8019-4655-9CD2-D55A521118A9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libmp4v2", "mpeg4ip\lib\mp4v2\libmp4v260.vcproj", "{B94333C8-8019-4655-9CD2-D55A521118A9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5F9287FE-7CD2-4547-B53F-D7EFE1E4EC7F}.Debug.ActiveCfg = Debug|Win32
+		{5F9287FE-7CD2-4547-B53F-D7EFE1E4EC7F}.Debug.Build.0 = Debug|Win32
+		{5F9287FE-7CD2-4547-B53F-D7EFE1E4EC7F}.Release.ActiveCfg = Release|Win32
+		{5F9287FE-7CD2-4547-B53F-D7EFE1E4EC7F}.Release.Build.0 = Release|Win32
+		{B94333C8-8019-4655-9CD2-D55A521118A9}.Debug.ActiveCfg = Debug|Win32
+		{B94333C8-8019-4655-9CD2-D55A521118A9}.Debug.Build.0 = Debug|Win32
+		{B94333C8-8019-4655-9CD2-D55A521118A9}.Release.ActiveCfg = Release|Win32
+		{B94333C8-8019-4655-9CD2-D55A521118A9}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
